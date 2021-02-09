@@ -523,7 +523,7 @@
 
   }
 
-  @media screen and (min-width: 576px){
+  @media screen and (min-width: 768px){
       body{
           margin: 0;
       }
@@ -561,14 +561,14 @@
         justify-items: center;
       }
 
-      .services_container{
+      .services_container,
+      .menu_container{
           margin-top: var(--mb-6);
       }
 
       .menu_container{
           grid-template-columns: repeat(3,210px);
           column-gap: 4rem;
-          margin-top: var(--mb-1);
       }
 
       .menu_content{
